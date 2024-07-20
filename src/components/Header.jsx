@@ -51,12 +51,12 @@ function Header() {
   ];
 
   return (
-    <header className="p-3 top-0 shadow bg-slate-100 sticky">
+    <header className="p-3 top-0 shadow bg-slate-100 sticky w-full">
       <Container>
         <nav className="flex">
           <div className="flex justify-center items-center rounded-xl">
             <Link to="/" className="flex justify-center items-center p-2">
-              <h1 className="text-2xl font-bold pl-4">ARTBID</h1>
+              <h1 className="text-2xl font-bold pl-4 text-black">ARTBID</h1>
             </Link>
           </div>
           <ul className="flex ml-auto">

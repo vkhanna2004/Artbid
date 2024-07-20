@@ -5,6 +5,8 @@ import { Container } from "../components";
 import { Link } from "react-router-dom";
 import "../App.css";
 import image1 from "./image/image1.jpg";
+import cover from "./image/cover.jpg";
+import "../App.css";
 
 function Home() {
   const authStatus = useSelector((state) => state.auth.status);
@@ -30,7 +32,6 @@ function Home() {
     <div className="w-full  text-center ">
       <Container>
         <div className=" px-20 border-t-2 border-gray-200 flex flex-col-reverse md:flex-row items-center md:items-start justify-between py-10">
-          
           <div className=" md:ml-6">
             <h2 className="text-9xl text-teal-500 font-extrabold text-left">
               ARTBID
@@ -39,7 +40,8 @@ function Home() {
               Art Bidding, Elevated !
             </p>
             <p className="text-2xl text-black/60 mt-4 font-semibold text-left">
-              Leveraging blockchain technology to authenticate <br /> and track the provenance of art peices.
+              Leveraging blockchain technology to authenticate <br /> and track
+              the provenance of art peices.
             </p>
           </div>
           <div className="w-[800px] max-w-xs h-auto">
@@ -48,6 +50,21 @@ function Home() {
               alt="art image"
               className="width-full mb-6 md:mb-0 rounded-xl"
             />
+          </div>
+        </div>
+        {/* edit this to add features */}
+        <h2 className="text-3xl text-black/80 my-5 font-semibold text-left">Our Features</h2>
+          
+        <div className="h-76">
+          <div class="book">
+            <div class="cover">
+              <p>Hover to open</p>
+              <h2>
+                CSS Only <br />
+                <span>Book</span>
+              </h2>
+              <p>Feature description</p>
+            </div>
           </div>
         </div>
       </Container>

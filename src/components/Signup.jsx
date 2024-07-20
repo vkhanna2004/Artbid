@@ -36,7 +36,7 @@ function Signup() {
       <div
         className={`mx-auto w-full max-w-lg rounded-xl p-10 border border-black/10 bg-teal-100/25 md:my-4 text-gray-300`}
       >
-        <h2 className="text-center text-2xl font-bold leading-tight mb-3 text-black font-bold">
+        <h2 className="text-center text-2xl  leading-tight mb-3 text-black font-bold">
           Sign up to create account
         </h2>
         <p className="mt-2 text-center text-base text-black/85">
