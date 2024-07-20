@@ -32,16 +32,16 @@ function Login() {
   };
 
   return loading ? (
-    <Loader className1="h-20 w-20 bg-zinc-800" className2="bg-zinc-800" />
+    <Loader className1="h-20 w-20 " />
   ) : (
     <div className="flex items-center justify-center w-full">
       <div
-        className={`mx-auto w-full max-w-lg rounded-xl p-10 border border-black/10 bg-zinc-900 md:my-4 text-gray-300`}
+        className={`mx-auto w-full max-w-lg rounded-xl p-10 border border-black/10 bg-teal-100/25 md:my-4 text-gray-300`}
       >
-        <h2 className="text-center text-2xl font-bold leading-tight mb-3 text-gray-200 ">
+        <h2 className="text-center text-2xl font-bold leading-tight mb-3 text-black ">
           Sign in to your account
         </h2>
-        <p className="mt-2 text-center text-base">
+        <p className="mt-2 text-center text-base text-black/85">
           Don&apos;t have any account?&nbsp;
           <Link
             to="/signup"
@@ -74,7 +74,7 @@ function Login() {
                 required: true,
               })}
             />
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full bg-teal-500 rounded-md">
               Sign in
             </Button>
           </div>
