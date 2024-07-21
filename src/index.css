@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.carrosel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carrosel {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }

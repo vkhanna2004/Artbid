@@ -11,7 +11,7 @@ import AuthLayout from "./AuthLayout";
 import Feed from "./Feed";
 import Trade from "./Trade";
 import Profile from "./Profile";
-
+import Carousel from "./Carousel";
 export {
   Footer,
   Header,
@@ -26,4 +26,5 @@ export {
   Feed,
   Profile,
   Trade,
+  Carousel,
 };
